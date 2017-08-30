@@ -1,0 +1,18 @@
+# To automatically start the daemon on Xfce or MATE, put this file in your
+# ~/.config/autostart/ directory.
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=update-applet
+Comment=Software Update Notifier
+Icon=/usr/share/icons/gnome/32x32/status/software-update-available.png
+Exec=update-applet
+OnlyShowIn=XFCE;MATE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+
+X-MATE-Autostart-enabled=true
+Name[en_US]=update-applet: Software Update Notifier
+Comment[en_US]=Notifies about available software updates.
